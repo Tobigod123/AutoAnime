@@ -1,0 +1,46 @@
+{
+    "name": "Auto Anime",
+    "description": "Telegram File Renamer Bot ",
+    "logo": "https://graph.org/file/91ab4b346dddd0652958c.jpg",
+    "keywords": ["Anime Bot", "Mongo DB"],    
+    "repository": "https://github.com/Conan830/AutoAnime",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From my.telegram.org ",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org ",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "ARCHIVE_CHANNEL": {
+            "description":"Your Archive Channel ID to store files (E.g -10037823545)"
+            "value": ""
+       },
+        "MONGO_DB": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "MAIN_CHANNEL": {
+            "description": "Your Main Channel Where Bot Will Update About Anime (E.g -10037823545)",
+            "value": ""
+        },
+        "MESSAGE_ID": {
+            "description": "Message Id of any message in main channel (E.g 40)",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram username. Without @.",
+            "value": ""
+        },
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
