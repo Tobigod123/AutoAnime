@@ -13,8 +13,8 @@ LOG.setLevel(level=logging.INFO)
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0',}
 
-API_ID = int(environ.get('API_ID', 45647)) #API ID
-API_HASH = environ.get('API_HASH', 'Your Api Id') #API HASH
+API_ID = int(environ.get('API_ID', 21755892)) #API ID
+API_HASH = environ.get('API_HASH', '86e4ee550e25c840f888feb042663545') #API HASH
 BOT_TOKEN = environ.get('BOT_TOKEN', '6387970018:AAH92XPk4loqOZ82zfp-oK5fmFgGK7-wYHA') #BOT TOKEN
 DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://neverminduff:autoanime@aytoanime.kni2mww.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp') #MONGO DB
 OWNER_ID = int(environ.get('OWNER_ID', 6440253535)) #OWNER ID
